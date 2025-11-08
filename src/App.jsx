@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import Impact from './components/Impact';
 import CTA from './components/CTA';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <Impact />
         <CTA />
 
         <section id="contatti" className="py-20">
@@ -44,6 +46,7 @@ function App() {
           <p>© {new Date().getFullYear()} Cordless NeoBank — Swiss-built, globally inclusive.</p>
           <div className="flex gap-4">
             <a href="#features" className="hover:text-slate-900">Caratteristiche</a>
+            <a href="#impact" className="hover:text-slate-900">Impatto</a>
             <a href="#contatti" className="hover:text-slate-900">Contatti</a>
           </div>
         </div>
