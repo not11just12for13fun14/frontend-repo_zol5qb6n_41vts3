@@ -1,4 +1,4 @@
-import { Smartphone, CreditCard, Globe, ShieldCheck, Send, ChartBar } from 'lucide-react';
+import { Smartphone, CreditCard, Globe, ShieldCheck, Send, BarChart3 } from 'lucide-react';
 
 export default function Features() {
   const items = [
@@ -28,7 +28,7 @@ export default function Features() {
       desc: "Tariffe trasparenti per connettere innovatori e comunità come Kakuma con pagamenti veloci.",
     },
     {
-      icon: ChartBar,
+      icon: BarChart3,
       title: "Insights finanziari",
       desc: "Analisi smart della spesa e strumenti per PMI, creator e startup globali.",
     },
